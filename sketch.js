@@ -1,7 +1,7 @@
 let classifier;
 let prediction = "Drop an image to classify";
 let img;
-let modelURL="https://teachablemachine.withgoogle.com/models/NhkA5RCVY/model.json";
+let modelURL="https://teachablemachine.withgoogle.com/models/TYfs3iuGZ/model.json";
 // Load the model
 function preload() {
   classifier = ml5.imageClassifier(modelURL, modelLoaded);
